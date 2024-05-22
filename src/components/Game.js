@@ -60,3 +60,17 @@ export default function Game({ listOfPlayers }) {
 		</div>
 	);
 }
+
+/*
+TODO:
+2. Add new component to render all players with highlighting the player
+who's turn is to make a next move
+3. When winner is determined, a new component <GameOver />
+shoulde be rendered in modal winwow, printing the name of winner
+and with the button "PlayAgain"
+On click of the button "PlayAgain" Game should reset a new session
+to default and start new game
+4*. Add a new component, what stores and prints a victory records
+ex.: Player Bob won: 3 times
+     Player John won 2 times
+*/
