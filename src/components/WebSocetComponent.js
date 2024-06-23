@@ -21,10 +21,8 @@ const WebSocketComponent = () => {
 
 	console.log(userName, oponentUsername)
 	useEffect(() => {
-		// const socket = new WebSocket("ws://localhost:4000");
 		// const socket = new WebSocket("ws://localhost:4000/api/push");
-		const socket = new WebSocket("ws://54.173.144.149:4000/api/push");
-
+		const socket = new WebSocket("wss://webdevs.online:4000/api/push");
 
 		socket.onopen = () => {
 			console.log("WebSocket connection opened");
