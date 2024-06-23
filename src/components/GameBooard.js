@@ -9,7 +9,7 @@ export default function GameBooard({ sessionState, clickCell, switchPlayer }) {
 					key={id}
 					onClick={() => {
 						// if value exist? skip or not click
-						!value && clickCell({ id, player, value });
+						!value && clickCell(id);
 					}}
 				>
 					{value}

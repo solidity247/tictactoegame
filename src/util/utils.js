@@ -1,12 +1,12 @@
 const PATTERNS = [
-	[0, 1, 2], // pattern 1
-	[3, 4, 5], // pattern 2
-	[6, 7, 8], // pattern 3
-	[0, 3, 6], // pattern 4
-	[1, 4, 7], // pattern 5
-	[2, 5, 8], // pattern 6
-	[0, 4, 8], // pattern 7
-	[2, 4, 6] // pattern 8
+	[0, 1, 2],
+	[3, 4, 5],
+	[6, 7, 8],
+	[0, 3, 6],
+	[1, 4, 7],
+	[2, 5, 8],
+	[0, 4, 8],
+	[2, 4, 6]
 ];
 
 const findWinner = arrOfCells => {
