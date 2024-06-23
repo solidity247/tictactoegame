@@ -69,13 +69,13 @@ const WebSocketComponent = () => {
 				setGameState(null);
 				setWinner(null);
 			}
-		} else if (message.type === "gameRuning") {
+		} else if (message.type === "gameRunning") {
             console.log("gameRuning")
             console.log(message);
 			setGameRuning(true);
 			setGameState(message.payload.gamestate);
 			setTurn(message.payload.gamestate.turn);
-			setOponentUsername(message.payload.oponentUserName)
+			setOponentUsername(message.payload.opponentUserName)
 		} else if(message.type === "joinGameResponse") {
 			setRole(message.payload.role);
 		} else if(message.type === "userNameResponse"){
