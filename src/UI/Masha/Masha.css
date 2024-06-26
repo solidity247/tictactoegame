@@ -1,0 +1,9 @@
+.lady-pic {
+	width: 300px;
+	height: 375px;
+	border: 1px solid #90293b;
+	transform: scaleX(-1);
+	margin-top: 15px;
+	background-image: url("./lady.jpeg");
+	object-fit: cover;
+}

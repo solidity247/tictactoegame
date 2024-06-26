@@ -1,0 +1,21 @@
+.auth-bar ul {
+	list-style: none;
+}
+
+.auth-btn {
+	background-color: transparent;
+	color: #FFFF;
+	border: 2px solid hsla(356, 97%, 63%, 0.55);
+	border-radius: 4px;
+	width: 240px;
+	height: 34px;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 500;
+	margin: 5px;
+}
+
+.auth-btn:hover {
+	background-color: hsla(356, 97%, 63%);
+	cursor: pointer;
+}

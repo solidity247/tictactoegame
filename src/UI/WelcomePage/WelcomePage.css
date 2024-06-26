@@ -1,0 +1,27 @@
+.main-content {
+	margin: 0 60px;
+	display: flex;
+	flex-direction: row;
+	width: calc(100%-120px);
+}
+
+.welcome-bar {
+	width: 55%;
+}
+.welcome-bar h3 {
+	color: #fffefe;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 60px;
+	text-wrap: wrap;
+}
+.welcome-bar p {
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 24px;
+	margin: 25px 0;
+}
+.masha-picture {
+	width: 45%;
+}

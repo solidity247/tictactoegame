@@ -2,14 +2,16 @@
 // import NamesPrompt from "./components/NamesPrompt";
 // import Game from "./components/Game";
 import "./App.css";
-import WebSocketComponent from "./components/WebSocetComponent";
+import WelcomePage from "./UI/WelcomePage/WelcomePage";
+// import WebSocketComponent from "./components/WebSocetComponent";
 
 function App() {
 	// const [names, set] = useState(null);
 
 	return (
 		<div className="App">
-			<WebSocketComponent />
+			<WelcomePage />
+			{/* <WebSocketComponent /> */}
 		</div>
 	);
 }

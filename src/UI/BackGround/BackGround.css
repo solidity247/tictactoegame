@@ -1,0 +1,43 @@
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-color: #10061e;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.bg-blur {
+	background-color: #fc4754;
+	height: 262px;
+	width: 262px;
+	position: fixed;
+	z-index: -1;
+	border-radius: 50%;
+	filter: blur(100px);
+	opacity: 0.9;
+}
+
+#blurel-1 {
+	top: 41px;
+	left: -188px;
+}
+#blurel-2 {
+	top: 332px;
+	left: 751px;
+}
+#blurel-3 {
+	top: 700px;
+	left: 361px;
+}
+
+.tt-logo {
+	position: fixed;
+	width: 609px;
+	height: 570;
+	top: 126px;
+	left: 170px;
+	transform: rotate(-14deg);
+	opacity: 0.1;
+}
